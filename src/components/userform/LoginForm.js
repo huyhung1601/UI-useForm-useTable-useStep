@@ -20,7 +20,6 @@ const LoginForm = ({formData, setForm, navigation}) => {
     
     const handleLogin = (e)=>{  
         e.preventDefault()
-        alert('log in sucessfull')
         if (account == ''){
             setErrors(true)
         } else {setErrors(false)}
