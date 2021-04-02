@@ -15,8 +15,7 @@ const Select = (props) => {
                 name={name}
                 value={value}
                 onChange={onChange}                
-            >
-                <MenuItem >None</MenuItem>
+            >                
                 {
                     options.map(
                         item =>(
